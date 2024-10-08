@@ -47,7 +47,7 @@
 /* Each section styling */
 .section {
   scroll-snap-align: start; /* Snaps to the start of each section */
-  height: 100vh; /* Full viewport height */
+  height: 85vh; /* Full viewport height */
   display: grid;
   justify-content: center;
   align-items: start;
@@ -56,6 +56,35 @@
 }
 
 /* Optional styling for smoother scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #555;
+  cursor: pointer;
+}
+
+.bullet.active {
+  background-color: #00ff00; /* Active color */
+}
+
 html, body {
   margin: 0;
   padding: 0;
