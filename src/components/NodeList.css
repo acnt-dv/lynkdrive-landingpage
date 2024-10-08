@@ -1,0 +1,26 @@
+.node-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 16px; /* Space between items */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    color: #00ff00;
+}
+
+.node-item {
+    padding: 16px;
+    /*border: 1px solid #00ff00;*/
+    /*background-color: #222;*/
+    /*border-radius: 8px;*/
+}
+
+.node-ip {
+    font-weight: bold;
+}
+
+.node-city {
+    font-size: 0.9rem;
+    color: #a0ffa0;
+}
