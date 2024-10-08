@@ -1,0 +1,16 @@
+.features {
+    background-color: black;
+    color: #00ff00;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.features .feature-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.features .feature-item {
+    width: 250px;
+}

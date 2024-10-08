@@ -1,0 +1,31 @@
+.header {
+    background-color: black;
+    color: #00ff00;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header nav ul li {
+    cursor: pointer;
+}
+
+.cta-button {
+    background-color: #00ff00;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}

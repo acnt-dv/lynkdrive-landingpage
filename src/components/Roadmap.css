@@ -1,0 +1,13 @@
+.roadmap {
+    background-color: black;
+    color: #00ff00;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
