@@ -1,16 +1,11 @@
 .how-it-works {
-    background-color: black;
-    color: #00ff00;
-    padding: 8rem 2rem;
-    text-align: center;
+    @apply bg-black text-ldGreen py-32 px-8 text-center;
 }
 
 .steps {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
+    @apply grid sm:flex gap-8 justify-center;
 }
 
 .step {
-    width: 200px;
+    @apply w-[200px];
 }
