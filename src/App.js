@@ -8,18 +8,30 @@ import LyndToken from "./components/LyndToken";
 import Roadmap from "./components/Roadmap";
 import Footer from "./components/Footer";
 import "./index.css";
+import "./App.css";
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <Hero />
-            <Features />
-            <InteractiveMap />
-            <HowItWorks />
-            <LyndToken />
-            <Roadmap />
-            <Footer />
+            <Header/>
+            <div className="container">
+                <section className="section">
+                    <Hero/>
+                </section>
+                <section className="section">
+                    <Features/>
+                    <InteractiveMap/>
+                </section>
+                <section className="section">
+                    <HowItWorks/>
+                    <LyndToken/>
+                </section>
+                <section className="section">
+                    <Roadmap/>
+                    <Footer/>
+                </section>
+            </div>
+
         </div>
     );
 }
