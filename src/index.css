@@ -19,3 +19,23 @@ button {
 button:hover {
   opacity: 0.9;
 }
+
+/* Custom Scrollbar for WebKit Browsers (Chrome, Safari) */
+.container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.container::-webkit-scrollbar-track {
+  background: #2c2c2c; /* Track color */
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #00ff00; /* Thumb color (green) */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Custom Scrollbar for Firefox */
+.container {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: #00ff00 #2c2c2c; /* Thumb color | Track color */
+}

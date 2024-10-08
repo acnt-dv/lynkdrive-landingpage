@@ -1,8 +1,11 @@
 .footer {
-    background-color: black;
-    color: #00ff00;
+    left: 0;
+    background-color: #00ff00;
+    color: black;
     padding: 2rem;
     text-align: center;
+    align-items: center;
+    bottom: -100px;
 }
 
 .footer nav ul {

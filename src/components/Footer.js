@@ -5,7 +5,6 @@ import "./Footer.css";
 function Footer() {
     return (
         <footer className="footer">
-            <div className="footer-logo">LynkDrive</div>
             <nav>
                 <ul>
                     <li>Home</li>
