@@ -4,9 +4,6 @@ module.exports = {
     ],
     theme: {
         extend: {
-            screens: {
-                xs: '320px',
-            },
             colors: {
                 ldGreen: '#00ff00',
             },
