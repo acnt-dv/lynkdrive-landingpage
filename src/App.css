@@ -85,16 +85,6 @@ html, body {
   background-color: #00ff00; /* Active color */
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.container {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: black;
   color: #00ff00;
@@ -133,6 +123,7 @@ button:hover {
 
 /* Custom Scrollbar for Firefox */
 .container {
+  scroll-behavior: smooth;
   scrollbar-width: thin; /* Make scrollbar thin */
   scrollbar-color: #00ff00 #2c2c2c; /* Thumb color | Track color */
 }
