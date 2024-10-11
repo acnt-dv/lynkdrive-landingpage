@@ -126,5 +126,6 @@ button:hover {
   scroll-behavior: smooth;
   scrollbar-width: thin; /* Make scrollbar thin */
   scrollbar-color: #00ff00 #2c2c2c; /* Thumb color | Track color */
+  min-width: stretch;
 }
 
