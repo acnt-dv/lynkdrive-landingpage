@@ -27,5 +27,5 @@
 }
 
 .hero-map {
-    @apply w-3/4 mx-auto;
+    @apply w-3/4 mx-auto flex justify-center items-center;
 }
