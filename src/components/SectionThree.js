@@ -1,12 +1,11 @@
 import React from "react";
 import "./Roadmap.css";
-import Roadmap from "./Roadmap";
-import Footer from "./Footer";
+import Timeline from "./Timeline";
 
 function SectionThree() {
     return (
-        <div>
-            <Roadmap/>
+        <div className="flex mt-[60%]">
+            <Timeline />
         </div>
     );
 }
