@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    color: #00ff00;
     padding: 1rem 2rem;
+    @apply text-ldGreen
 }
 
 .header .logo {
@@ -29,7 +29,7 @@
 }
 
 .cta-button {
-    background-color: #00ff00;
+    @apply bg-ldGreen;
     color: black;
     padding: 0.5rem 1rem;
     border: none;
