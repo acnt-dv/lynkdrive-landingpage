@@ -29,10 +29,9 @@
 }
 
 .cta-button {
-    @apply bg-ldGreen;
     color: black;
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    @apply hidden md:flex md:max-w-[150px];
+    @apply hidden md:flex md:max-w-[150px] bg-ldGreen;
 }
