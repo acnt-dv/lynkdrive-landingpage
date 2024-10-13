@@ -1,8 +1,8 @@
 .lynd-token {
     background-color: black;
-    color: #00ff00;
     padding: 4rem 2rem;
     text-align: center;
+    @apply text-ldGreen;
 }
 
 .lynd-token img {

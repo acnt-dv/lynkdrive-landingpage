@@ -1,8 +1,8 @@
 .roadmap {
     background-color: black;
-    color: #00ff00;
     padding: 8rem 2rem;
     text-align: center;
+    @apply text-ldGreen;
 }
 
 .timeline {

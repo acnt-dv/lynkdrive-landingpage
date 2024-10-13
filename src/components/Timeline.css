@@ -13,8 +13,8 @@
     bottom: 0;
     left: 50%;
     width: 4px;
-    background-color: #0f0; /* Green line */
     transform: translateX(-50%);
+    @apply bg-ldGreen;
 }
 
 .timeline-item {
@@ -43,8 +43,8 @@
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background-color: #0f0; /* Green dot */
     transform: translateX(-50%);
+    @apply bg-ldGreen;
 }
 
 .timeline-dot.right {
@@ -54,8 +54,8 @@
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background-color: #0f0; /* Green dot */
     transform: translateX(-50%);
+    @apply bg-ldGreen;
 }
 
 .timeline-content {
@@ -63,17 +63,17 @@
     padding: 15px 20px;
     border-radius: 6px;
     border: 1px solid #0f0; /* Green border */
-    color: #0f0; /* Green text color */
+    @apply text-ldGreen;
 }
 
 .timeline-item h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #0f0;
+    @apply text-ldGreen;
 }
 
 .timeline-item p {
     margin: 5px 0 0;
     font-size: 0.9em;
-    color: #0f0;
+    @apply text-ldGreen;
 }
