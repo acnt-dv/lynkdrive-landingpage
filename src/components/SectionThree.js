@@ -4,7 +4,7 @@ import Timeline from "./Timeline";
 
 function SectionThree() {
     return (
-        <div className="flex mt-[60%]">
+        <div className="flex mt-[10%]">
             <Timeline />
         </div>
     );

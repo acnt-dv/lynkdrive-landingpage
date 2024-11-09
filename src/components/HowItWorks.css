@@ -1,5 +1,5 @@
 .how-it-works {
-    @apply bg-black text-ldGreen py-32 px-8 text-center;
+    @apply bg-black text-ldGreen py-24 px-8 text-center;
 }
 
 .steps {
