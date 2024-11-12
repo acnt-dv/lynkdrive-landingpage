@@ -2,17 +2,17 @@
 
 /* FAQ Section Wrapper */
 .faq-section {
-    @apply bg-black text-green-500 py-20 px-8;
+    @apply bg-black text-ldGreen py-20 px-8;
 }
 
 /* FAQ Heading */
 .faq-heading {
-    @apply text-4xl font-bold text-center mb-12;
+    @apply text-4xl text-ldGreen font-bold text-center mb-12;
 }
 
 /* FAQ Item Container */
 .faq-item {
-    @apply border border-green-500 rounded-lg p-4;
+    @apply border border-ldGreen rounded-lg p-4;
 }
 
 /* FAQ Button (Question) */
@@ -22,5 +22,5 @@
 
 /* FAQ Answer (Revealed Text) */
 .faq-answer {
-    @apply mt-4 text-green-300;
+    @apply mt-4 text-ldGreen;
 }
