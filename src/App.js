@@ -6,11 +6,12 @@ import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import Header from "./components/Header";
+import FAQ from "./components/FAQ";
 
 function App() {
     const [activeSection, setActiveSection] = useState(0);
 
-    const sections = [<SectionOne/>, <SectionTwo/>, <SectionThree/>];
+    const sections = [<SectionOne/>, <SectionTwo/>, <SectionThree/>, <FAQ/>];
 
     useEffect(() => {
         const sectionElements = document.querySelectorAll(".section");
