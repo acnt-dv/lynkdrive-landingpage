@@ -2,7 +2,8 @@
 
 /* FAQ Section Wrapper */
 .faq-section {
-    @apply bg-black text-ldGreen py-20 px-8;
+    margin-top: 6rem;
+    @apply bg-black text-ldGreen;
 }
 
 /* FAQ Heading */

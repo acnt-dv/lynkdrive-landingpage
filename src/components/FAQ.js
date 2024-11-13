@@ -29,7 +29,7 @@ const FAQ = () => {
     };
 
     return (
-        <section className="faq-section overflow-auto">
+        <section className="faq-section">
             <h2 className="faq-heading">Frequently Asked Questions (FAQ)</h2>
             <div className="max-w-3xl mx-auto space-y-4">
                 {faqs.map((faq, index) => (
