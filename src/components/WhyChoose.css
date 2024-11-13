@@ -1,0 +1,11 @@
+.why-choose {
+    @apply bg-black text-ldGreen py-8 mt-12 px-8 text-center;
+}
+
+.steps {
+    @apply grid sm:flex gap-8 justify-center;
+}
+
+.step {
+    @apply w-[200px];
+}
