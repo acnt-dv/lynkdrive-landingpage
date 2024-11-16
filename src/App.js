@@ -7,11 +7,12 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import Header from "./components/Header";
 import FAQ from "./components/FAQ";
+import Timeline from "./components/Timeline";
 
 function App() {
     const [activeSection, setActiveSection] = useState(0);
 
-    const sections = [<SectionOne/>, <SectionTwo/>, <SectionThree/>, <FAQ/>];
+    const sections = [<SectionOne/>, <SectionTwo/>, <SectionThree/>, <Timeline/>, <FAQ/>];
 
     useEffect(() => {
         const sectionElements = document.querySelectorAll(".section");
@@ -41,7 +42,7 @@ function App() {
         };
     }, []);
 
-        // const handleScroll = () => {
+    // const handleScroll = () => {
     //     const sectionElements = document.querySelectorAll(".section");
     //     const scrollPosition = window.scrollY;
     //
@@ -80,9 +81,9 @@ function App() {
             </div>
 
             {sections.map((title, index) => (
-                    <section className="section" key={index}>
-                        {title}
-                    </section>
+                <section className="section" key={index}>
+                    {title}
+                </section>
             ))}
             <Footer/>
         </div>
