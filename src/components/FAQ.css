@@ -2,7 +2,7 @@
 
 /* FAQ Section Wrapper */
 .faq-section {
-    margin-top: 6rem;
+    margin-top: 8rem;
     @apply bg-black text-ldGreen;
 }
 
