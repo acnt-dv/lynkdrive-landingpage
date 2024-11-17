@@ -1,5 +1,5 @@
 .why-choose {
-    @apply bg-black text-ldGreen py-8 mt-12 px-8 text-center;
+    @apply bg-black text-ldGreen py-8 mt-16 px-8 text-center;
 }
 
 .steps {
