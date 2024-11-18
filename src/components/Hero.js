@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import myWorldImage from './worldMap.png';
+import myWorldImage from '../resources/worldMap.png';
 
 function Hero() {
     return (
